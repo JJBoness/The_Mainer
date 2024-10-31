@@ -54,13 +54,3 @@
     }
 }
 #Hotif
-
-Tooltip_Timer(Text, Time) {
-    ToolTip(Text)
-    SetTimer(Tooltip_Timer_Set, 1000)
-}
-
-Tooltip_Timer_Set() {
-    Tooltip()
-    SetTimer(Tooltip_Timer_Set, 0)
-}
